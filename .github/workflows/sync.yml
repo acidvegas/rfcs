@@ -35,28 +35,30 @@ jobs:
             echo
             echo "Last updated: $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
             echo
+
             echo '## Recently Published RFCs'
             echo
             echo '| RFC | Title | Date | Status | DOI |'
             echo '|-----|-------|------|--------|-----|'
 
-            awk '/^[0-9]{4} / {
-              rfc_num=$1
-              title_line=substr($0, index($0,$2))
-              getline nextline
-              while (nextline ~ /^\s{5,}/) {
-                title_line = title_line " " gensub(/^\s+/, "", 1, nextline)
-                getline nextline
+            awk '
+              /^[0-9]{4} / {
+                rfc_num=$1
+                title_line=substr($0, index($0,$2))
+                while (getline nextline && nextline ~ /^\s{5,}/) {
+                  sub(/^\s+/, "", nextline)
+                  title_line = title_line " " nextline
+                }
+                date = match(title_line, /[A-Za-z]+ [0-9]{4}/) ? substr(title_line, RSTART, RLENGTH) : "N/A"
+                status = match(title_line, /\(Status: ([^)]+)\)/, arr_status) ? arr_status[1] : "UNKNOWN"
+                doi = match(title_line, /DOI: ([^)]+)/, arr_doi) ? arr_doi[1] : "N/A"
+                title = gensub(/\.\s+[A-Za-z].*$/, "", 1, title_line)
+                printf "| [RFC %s](rfcs/rfc%s.txt) | %s | %s | %s | [DOI](https://doi.org/%s) |\n", rfc_num, rfc_num, title, date, status, doi
               }
-              date = match(title_line, /[A-Za-z]+ [0-9]{4}/) ? substr(title_line, RSTART, RLENGTH) : "N/A"
-              status = match(title_line, /\(Status: ([^)]+)\)/, arr_status) ? arr_status[1] : "UNKNOWN"
-              doi = match(title_line, /DOI: ([^)]+)/, arr_doi) ? arr_doi[1] : "N/A"
-              title = gensub(/\.\s+[A-Za-z].*$/, "", 1, title_line)
-              printf "| [RFC %s](rfcs/rfc%s.txt) | %s | %s | %s |\n", rfc_num, rfc_num, title, date, status, doi
-            }' rfcs/rfc-index-latest.txt
+            ' rfcs/rfc-index-latest.txt
 
             echo
-            echo '## RFC Index'
+            echo '## Full RFC Index'
             echo
             echo '<details>'
             echo '<summary>Click to expand full RFC index</summary>'
@@ -64,20 +66,22 @@ jobs:
             echo '| RFC | Title | Date | Status | DOI |'
             echo '|-----|-------|------|--------|-----|'
 
-            awk '/^[0-9]{4} / {
-              rfc_num=$1
-              title_line=substr($0, index($0,$2))
-              getline nextline
-              while (nextline ~ /^\s{5,}/) {
-                title_line=title_line " " gensub(/^\s+/, "", 1, nextline)
+            awk '
+              /^[0-9]{4} / {
+                rfc_num=$1
+                title_line=substr($0, index($0,$2))
                 getline nextline
+                while (nextline ~ /^\s{5,}/) {
+                  title_line=title_line " " gensub(/^\s+/, "", 1, nextline)
+                  getline nextline
+                }
+                date=match(title_line,/[A-Za-z]+ [0-9]{4}/,arr_date)?arr_date[0]:"N/A"
+                status=match(title_line,/\(Status: ([^)]+)\)/,arr_status)?arr_status[1]:"UNKNOWN"
+                doi=match(title_line,/DOI: ([^)]+)/,arr_doi)?arr_doi[1]:"N/A"
+                title=gensub(/\.\s+[A-Za-z].*$/,"",1,title_line)
+                printf "| [RFC %s](rfcs/rfc%s.txt) | %s | %s | %s | [DOI](https://doi.org/%s) |\n", rfc_num, rfc_num, title, date, status, doi
               }
-              date=match(title_line,/[A-Za-z]+ [0-9]{4}/,arr_date)?arr_date[0]:"N/A"
-              status=match(title_line,/\(Status: ([^)]+)\)/,arr_status)?arr_status[1]:"UNKNOWN"
-              doi=match(title_line,/DOI: ([^)]+)/,arr_doi)?arr_doi[1]:"N/A"
-              title=gensub(/\.\s+[A-Za-z].*$/,"",1,title_line)
-              printf "| [RFC %s](rfcs/rfc%s.txt) | %s | %s | %s | %s |\n", rfc_num, rfc_num, title, date, status, doi
-            }' rfcs/rfc-index.txt
+            ' rfcs/rfc-index.txt
 
             echo '</details>'
           } > README.md || true
