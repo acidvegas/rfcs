@@ -53,9 +53,16 @@ jobs:
                 }
                 date = match(title_line, /[A-Za-z]+ [0-9]{4}/) ? substr(title_line, RSTART, RLENGTH) : "N/A"
                 status = match(title_line, /\(Status: ([^)]+)\)/, arr_status) ? arr_status[1] : "UNKNOWN"
-                doi = match(title_line, /DOI: ([^)]+)/, arr_doi) ? arr_doi[1] : "N/A"
+                if (match(title_line, /DOI: ([^)]+)/, arr_doi)) {
+                  doi = arr_doi[1]
+                  doi_text = doi
+                  sub(/\/RFC[0-9]+$/, "", doi_text)
+                } else {
+                  doi = "N/A"
+                  doi_text = "N/A"
+                }
                 title = gensub(/\.\s+[A-Za-z].*$/, "", 1, title_line)
-                printf "| [RFC %s](rfcs/rfc%s.txt) | %s | %s | %s | [%s](https://doi.org/%s) |\n", rfc_num, rfc_num, title, date, status, doi, doi
+                printf "| [RFC %s](rfcs/rfc%s.txt) | %s | %s | %s | [%s](https://doi.org/%s) |\n", rfc_num, rfc_num, title, date, status, doi_text, doi
                 if (NR != next_line_num) { next }
               }
             ' rfcs/rfc-index-latest.txt
@@ -81,9 +88,16 @@ jobs:
                 }
                 date = match(title_line, /[A-Za-z]+ [0-9]{4}/) ? substr(title_line, RSTART, RLENGTH) : "N/A"
                 status = match(title_line, /\(Status: ([^)]+)\)/, arr_status) ? arr_status[1] : "UNKNOWN"
-                doi = match(title_line, /DOI: ([^)]+)/, arr_doi) ? arr_doi[1] : "N/A"
+                if (match(title_line, /DOI: ([^)]+)/, arr_doi)) {
+                  doi = arr_doi[1]
+                  doi_text = doi
+                  sub(/\/RFC[0-9]+$/, "", doi_text)
+                } else {
+                  doi = "N/A"
+                  doi_text = "N/A"
+                }
                 title = gensub(/\.\s+[A-Za-z].*$/, "", 1, title_line)
-                printf "| [RFC %s](rfcs/rfc%s.txt) | %s | %s | %s | [%s](https://doi.org/%s) |\n", rfc_num, rfc_num, title, date, status, doi, doi
+                printf "| [RFC %s](rfcs/rfc%s.txt) | %s | %s | %s | [%s](https://doi.org/%s) |\n", rfc_num, rfc_num, title, date, status, doi_text, doi
                 if (NR != next_line_num) { next }
               }
             ' rfcs/rfc-index.txt
