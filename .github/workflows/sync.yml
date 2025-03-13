@@ -35,16 +35,6 @@ jobs:
             echo
             echo "Last updated: $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
             echo
-            echo '| RFC | Date Added | Filename |'
-            echo '|-----|------------|----------|'
-
-            ls -lt --time-style='+%Y-%m-%d' rfcs/rfc*.txt | grep -v -E '(rfc-index\.txt|rfc-index-latest\.txt)' | head -n 20 | while read -r perms links user group size date file; do
-              filename=$(basename "$file")
-              rfc_num=$(echo "$filename" | grep -o '[0-9]\+')
-              echo "| [RFC $rfc_num](rfcs/$filename) | $date | [$filename](rfcs/$filename) |"
-            done
-
-            echo
             echo '## Recently Published RFCs'
             echo
             echo '| RFC | Title | Date | Status | DOI |'
