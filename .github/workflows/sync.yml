@@ -38,11 +38,58 @@ jobs:
             echo '| RFC | Date Added | Filename |'
             echo '|-----|------------|----------|'
 
-            ls -lt --time-style='+%Y-%m-%d' rfcs/rfc*.txt | grep -v -E '(rfc-index\.txt|rcf-index\.txt)' | head -n 20 | while read -r perms links user group size date file; do
+            ls -lt --time-style='+%Y-%m-%d' rfcs/rfc*.txt | grep -v -E '(rfc-index\.txt|rfc-index-latest\.txt)' | head -n 20 | while read -r perms links user group size date file; do
               filename=$(basename "$file")
               rfc_num=$(echo "$filename" | grep -o '[0-9]\+')
               echo "| [RFC $rfc_num](rfcs/$filename) | $date | [$filename](rfcs/$filename) |"
             done
+
+            echo
+            echo '## Recently Published RFCs'
+            echo
+            echo '| RFC | Title | Date | Status | DOI |'
+            echo '|-----|-------|------|--------|-----|'
+
+            awk '/^[0-9]{4} / {
+              rfc_num=$1
+              title_line=substr($0, index($0,$2))
+              getline nextline
+              while (nextline ~ /^\s{5,}/) {
+                title_line = title_line " " gensub(/^\s+/, "", 1, nextline)
+                getline nextline
+              }
+              date = match(title_line, /[A-Za-z]+ [0-9]{4}/) ? substr(title_line, RSTART, RLENGTH) : "N/A"
+              status = match(title_line, /\(Status: ([^)]+)\)/, arr_status) ? arr_status[1] : "UNKNOWN"
+              doi = match(title_line, /DOI: ([^)]+)/, arr_doi) ? arr_doi[1] : "N/A"
+              title = gensub(/\.\s+[A-Za-z].*$/, "", 1, title_line)
+              printf "| [RFC %s](rfcs/rfc%s.txt) | %s | %s | %s |\n", rfc_num, rfc_num, title, date, status, doi
+            }' rfcs/rfc-index-latest.txt
+
+            echo
+            echo '## RFC Index'
+            echo
+            echo '<details>'
+            echo '<summary>Click to expand full RFC index</summary>'
+            echo
+            echo '| RFC | Title | Date | Status | DOI |'
+            echo '|-----|-------|------|--------|-----|'
+
+            awk '/^[0-9]{4} / {
+              rfc_num=$1
+              title_line=substr($0, index($0,$2))
+              getline nextline
+              while (nextline ~ /^\s{5,}/) {
+                title_line=title_line " " gensub(/^\s+/, "", 1, nextline)
+                getline nextline
+              }
+              date=match(title_line,/[A-Za-z]+ [0-9]{4}/,arr_date)?arr_date[0]:"N/A"
+              status=match(title_line,/\(Status: ([^)]+)\)/,arr_status)?arr_status[1]:"UNKNOWN"
+              doi=match(title_line,/DOI: ([^)]+)/,arr_doi)?arr_doi[1]:"N/A"
+              title=gensub(/\.\s+[A-Za-z].*$/,"",1,title_line)
+              printf "| [RFC %s](rfcs/rfc%s.txt) | %s | %s | %s | %s |\n", rfc_num, rfc_num, title, date, status, doi
+            }' rfcs/rfc-index.txt
+
+            echo '</details>'
           } > README.md || true
       
       - name: Commit and push changes
