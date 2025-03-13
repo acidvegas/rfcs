@@ -31,11 +31,8 @@ jobs:
             echo
             echo 'Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.'
             echo
-            echo '## Latest RFCs'
-            echo
             echo "Last updated: $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
             echo
-
             echo '## Recently Published RFCs'
             echo
             echo '| RFC | Title | Date | Status | DOI |'
