@@ -38,10 +38,10 @@ jobs:
             echo '| RFC | Date Added | Filename |'
             echo '|-----|------------|----------|'
 
-            ls -lt --time-style='+%Y-%m-%d' rfcs/rfc*.txt | head -n 20 | while read -r perms links user group size date file; do
+            ls -lt --time-style='+%Y-%m-%d' rfcs/rfc*.txt | grep -v -E '(rfc-index\.txt|rcf-index\.txt)' | head -n 20 | while read -r perms links user group size date file; do
               filename=$(basename "$file")
               rfc_num=$(echo "$filename" | grep -o '[0-9]\+')
-              echo "| RFC $rfc_num | $date | $filename |"
+              echo "| [RFC $rfc_num](rfcs/$filename) | $date | [$filename](rfcs/$filename) |"
             done
           } > README.md || true
       
