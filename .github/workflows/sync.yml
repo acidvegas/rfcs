@@ -1,0 +1,61 @@
+name: Sync RFCs
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Run daily at midnight UTC
+  workflow_dispatch:      # Allow manual trigger
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Install rsync
+        run: sudo apt-get install -y rsync
+      
+      - name: Sync RFCs
+        run: |
+          mkdir -p rfcs
+          rsync -avz --delete rsync.rfc-editor.org::rfcs-text-only/ rfcs/
+      
+      - name: Update README
+        run: |
+          {
+            echo '# RFC Mirror'
+            echo
+            echo 'Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.'
+            echo
+            echo '## Latest RFCs'
+            echo
+            echo "Last updated: $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+            echo
+            echo '| RFC | Date Added | Filename |'
+            echo '|-----|------------|----------|'
+
+            ls -lt --time-style='+%Y-%m-%d' rfcs/rfc*.txt | head -n 20 | while read -r perms links user group size date file; do
+              filename=$(basename "$file")
+              rfc_num=$(echo "$filename" | grep -o '[0-9]\+')
+              echo "| RFC $rfc_num | $date | $filename |"
+            done
+          } > README.md || true
+      
+      - name: Commit and push changes
+        run: |
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git config --global user.name 'GitHub Actions Bot'
+          
+          git add .
+          
+          if git diff --staged --quiet; then
+            echo 'No changes to commit'
+          else
+            timestamp=$(date -u +'%Y-%m-%d %H:%M:%S UTC')
+            git commit -m "Update RFCs - ${timestamp}"
+            git push
+          fi 
