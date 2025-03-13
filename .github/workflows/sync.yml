@@ -66,43 +66,6 @@ jobs:
                 if (NR != next_line_num) { next }
               }
             ' rfcs/rfc-index-latest.txt
-
-            echo
-            echo '## Full RFC Index'
-            echo
-            echo '<details>'
-            echo '<summary>Click to expand full RFC index</summary>'
-            echo
-            echo '| RFC | Title | Date | Status | DOI |'
-            echo '|-----|-------|------|--------|-----|'
-
-            awk '
-              /^[0-9]{4} / {
-                rfc_num=$1
-                title_line=substr($0, index($0,$2))
-                next_line_num=NR+1
-                while (getline && /^[[:space:]]{5,}/) {
-                  sub(/^[[:space:]]+/, "", $0)
-                  title_line=title_line " " $0
-                  next_line_num=NR+1
-                }
-                date = match(title_line, /[A-Za-z]+ [0-9]{4}/) ? substr(title_line, RSTART, RLENGTH) : "N/A"
-                status = match(title_line, /\(Status: ([^)]+)\)/, arr_status) ? arr_status[1] : "UNKNOWN"
-                if (match(title_line, /DOI: ([^)]+)/, arr_doi)) {
-                  doi = arr_doi[1]
-                  doi_text = doi
-                  sub(/\/RFC[0-9]+$/, "", doi_text)
-                } else {
-                  doi = "N/A"
-                  doi_text = "N/A"
-                }
-                title = gensub(/\.\s+[A-Za-z].*$/, "", 1, title_line)
-                printf "| [RFC %s](rfcs/rfc%s.txt) | %s | %s | %s | [%s](https://doi.org/%s) |\n", rfc_num, rfc_num, title, date, status, doi_text, doi
-                if (NR != next_line_num) { next }
-              }
-            ' rfcs/rfc-index.txt
-
-            echo '</details>'
           } > README.md || true
       
       - name: Commit and push changes
