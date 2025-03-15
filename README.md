@@ -2,13 +2,12 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2025-03-14 00:06:50 UTC
+Last updated: 2025-03-15 00:06:49 UTC
 
 ## Recently Published RFCs
 
 | RFC | Title | Date | Status | DOI |
 |-----|-------|------|--------|-----|
-| [RFC 9717](rfcs/rfc9717.txt) | A Routing Architecture for Satellite Networks | January 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9717) |
 | [RFC 9718](rfcs/rfc9718.txt) | DNSSEC Trust Anchor Publication for the Root Zone | January 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9718) |
 | [RFC 9720](rfcs/rfc9720.txt) | RFC Formats and Versions | January 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9720) |
 | [RFC 9729](rfcs/rfc9729.txt) | The Concealed HTTP Authentication Scheme | February 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9729) |
@@ -16,6 +15,7 @@ Last updated: 2025-03-14 00:06:50 UTC
 | [RFC 9733](rfcs/rfc9733.txt) | BRSKI with Alternative Enrollment (BRSKI-AE) | March 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9733) |
 | [RFC 9734](rfcs/rfc9734.txt) | X.509 Certificate Extended Key Usage (EKU) for Instant Messaging URIs | February 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9734) |
 | [RFC 9735](rfcs/rfc9735.txt) | Locator/ID Separation Protocol (LISP) Distinguished Name Encoding | February 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9735) |
+| [RFC 9736](rfcs/rfc9736.txt) | The BGP Monitoring Protocol (BMP) Peer Up Message Namespace | March 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9736) |
 | [RFC 9737](rfcs/rfc9737.txt) | Reporting Errors in NFSv4.2 via LAYOUTRETURN | February 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9737) |
 | [RFC 9738](rfcs/rfc9738.txt) | IMAP MESSAGELIMIT Extension | March 2025 | EXPERIMENTAL | [10.17487](https://doi.org/10.17487/RFC9738) |
 | [RFC 9739](rfcs/rfc9739.txt) | Protocol Independent Multicast Light (PIM Light) | March 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9739) |
