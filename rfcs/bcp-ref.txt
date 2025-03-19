@@ -138,6 +138,11 @@
               RFC 6838, DOI 10.17487/RFC6838, January 2013,
               <https://www.rfc-editor.org/info/rfc6838>.
 
+              Dürst, M.J., "Guidelines for the Definition of New Top-
+              Level Media Types", BCP 13, RFC 9694,
+              DOI 10.17487/RFC9694, March 2025,
+              <https://www.rfc-editor.org/info/rfc9694>.
+
    [BCP14]    Best Current Practice 14,
               <https://www.rfc-editor.org/info/bcp14>.
               At the time of writing, this BCP comprises the following:

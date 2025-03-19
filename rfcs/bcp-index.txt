@@ -103,9 +103,9 @@ RFC Editor Web page http://www.rfc-editor.org.
 0012 [Was Internet Registry IP Allocation Guidelines. Now Historic.]
 
 0013 Multipurpose Internet Mail Extensions (MIME) Part Four:
-     Registration Procedures. N. Freed, J. Klensin, T. Hansen. December
-     2005. (Format: TXT=74243 HTML= bytes) (Obsoletes RFC2048) (Also
-     RFC4289, RFC6838)
+     Registration Procedures. N. Freed, J. Klensin, T. Hansen, M.J. Dürst.
+     December 2005. (Format: TXT=120801 bytes) (Obsoletes RFC2048) (Also
+     RFC4289, RFC6838, RFC9694)
 
 0014 Key words for use in RFCs to Indicate Requirement Levels. S.
      Bradner, B. Leiba. (Format: TXT=10853 HTML= bytes) (Also RFC2119,
