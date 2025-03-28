@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 03/26/2025.)
+(CREATED ON: 03/27/2025.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -41421,6 +41421,15 @@ See the RFC Editor Web page http://www.rfc-editor.org
 9730 Interworking of GMPLS Control and Centralized Controller Systems. H.
      Zheng, Y. Lin, Y. Zhao, Y. Xu, D. Beller. March 2025. (Format: HTML,
      TXT, PDF, XML) (Status: INFORMATIONAL) (DOI: 10.17487/RFC9730) 
+
+9731 A YANG Data Model for Virtual Network (VN) Operations. Y. Lee, Ed.,
+     D. Dhody, Ed., D. Ceccarelli, I. Bryskin, B. Yoon. March 2025.
+     (Format: HTML, TXT, PDF, XML) (Status: PROPOSED STANDARD) (DOI:
+     10.17487/RFC9731) 
+
+9732 A Framework for NRP-Based Enhanced Virtual Private Networks. J.
+     Dong, S. Bryant, Z. Li, T. Miyasaka, Y. Lee. March 2025. (Format:
+     HTML, TXT, PDF, XML) (Status: INFORMATIONAL) (DOI: 10.17487/RFC9732) 
 
 9733 BRSKI with Alternative Enrollment (BRSKI-AE). D. von Oheimb, Ed., S.
      Fries, H. Brockhaus. March 2025. (Format: HTML, TXT, PDF, XML)
