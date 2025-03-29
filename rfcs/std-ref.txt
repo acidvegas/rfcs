@@ -938,3 +938,20 @@
               Ed., "HTTP/1.1", STD 99, RFC 9112, DOI 10.17487/RFC9112,
               June 2022, <https://www.rfc-editor.org/info/rfc9112>.
 
+   [STD100]   Internet Standard 100,
+              <https://www.rfc-editor.org/info/std100>.
+              At the time of writing, this STD comprises the following:
+
+              Haberman, B., Ed., "Internet Group Management Protocol,
+              Version 3", STD 100, RFC 9776, DOI 10.17487/RFC9776, March
+              2025, <https://www.rfc-editor.org/info/rfc9776>.
+
+   [STD101]   Internet Standard 101,
+              <https://www.rfc-editor.org/info/std101>.
+              At the time of writing, this STD comprises the following:
+
+	      Haberman, B., Ed., "Multicast Listener Discovery Version 2
+              (MLDv2) for IPv6", STD 101, RFC 9777,
+              DOI 10.17487/RFC9777, March 2025,
+              <https://www.rfc-editor.org/info/rfc9777>.
+	      

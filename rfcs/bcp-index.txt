@@ -5,7 +5,7 @@
                              BCP INDEX
                            -------------
 
-CREATED ON: 03/27/2025.
+CREATED ON: 03/28/2025.
 
 This file contains citations for all BCPs in numeric order.  The BCPs
 form a sub-series of the RFC document series, specifically those RFCs
@@ -264,9 +264,8 @@ RFC Editor Web page http://www.rfc-editor.org.
 0056 Building Protocols with HTTP. M. Nottingham. June 2022.
      (Obsoletes RFC3205) (Also RFC9205)
 
-0057 IANA Considerations for IPv4 Internet Group Management Protocol
-     (IGMP). B. Fenner. February 2002. (Format: TXT =6473 HTML= bytes)
-     (Also RFC3228)
+0057 IANA Considerations for Internet Group Management Protocols. B.
+     Haberman, Ed.. March 2025. (Obsoletes RFC3228) (Also RFC9778)
 
 0058 Defining the IETF. P. Hoffman, S. Bradner. February 2002.
      (Format: TXT =6401 HTML= bytes) (Also RFC3233)

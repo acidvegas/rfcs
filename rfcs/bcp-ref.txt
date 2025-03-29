@@ -551,10 +551,10 @@
               <https://www.rfc-editor.org/info/bcp57>.
               At the time of writing, this BCP comprises the following:
 
-              Fenner, B., "IANA Considerations for IPv4 Internet Group
-              Management Protocol (IGMP)", BCP 57, RFC 3228,
-              DOI 10.17487/RFC3228, February 2002,
-              <https://www.rfc-editor.org/info/rfc3228>.
+              Haberman, B., Ed., "IANA Considerations for Internet Group
+              Management Protocols", BCP 57, RFC 9778,
+              DOI 10.17487/RFC9778, March 2025,
+              <https://www.rfc-editor.org/info/rfc9778>.
 
    [BCP58]    Best Current Practice 58,
               <https://www.rfc-editor.org/info/bcp58>.
