@@ -5,7 +5,7 @@
                              BCP INDEX
                            -------------
 
-CREATED ON: 03/29/2025.
+CREATED ON: 03/31/2025.
 
 This file contains citations for all BCPs in numeric order.  The BCPs
 form a sub-series of the RFC document series, specifically those RFCs
@@ -958,3 +958,6 @@ RFC Editor Web page http://www.rfc-editor.org.
 0240 Best Current Practice for OAuth 2.0 Security. T. Lodderstedt, J.
      Bradley, A. Labunets, D. Fett. January 2025. (Updates RFC6749,
      RFC6750, RFC6819) (Also RFC9700)
+
+0241 Operational Considerations for Use of DNS in Internet of Things
+     (IoT) Devices. M. Richardson, W. Pan. March 2025. (Also RFC9726)

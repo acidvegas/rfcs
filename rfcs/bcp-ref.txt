@@ -2253,3 +2253,12 @@
               RFC 9700, DOI 10.17487/RFC9700, January 2025,
               <https://www.rfc-editor.org/info/rfc9700>.
 
+   [BCP241]   Best Current Practice 241,
+              <https://www.rfc-editor.org/info/bcp241>.
+              At the time of writing, this BCP comprises the following:
+
+              Richardson, M. and W. Pan, "Operational Considerations for
+	      Use of DNS in Internet of Things (IoT) Devices", BCP 241,
+              RFC 9726, DOI 10.17487/RFC9726, March 2025,
+              <https://www.rfc-editor.org/info/rfc9726>.
+
