@@ -9528,6 +9528,7 @@ RFC9715 |           | Fujiwara, K. and P. Vixie, "IP Fragmentation Avoidance in 
 RFC9716 |           | Hegde, S., Arora, K., Srivastava, M., Ninan, S., and N. Kumar, "Mechanisms for MPLS Ping and Traceroute Procedures in Inter-Domain Segment Routing Networks", RFC 9716, DOI 10.17487/RFC9716, February 2025, <https://www.rfc-editor.org/info/rfc9716>.
 RFC9717 |           | Li, T., "A Routing Architecture for Satellite Networks", RFC 9717, DOI 10.17487/RFC9717, January 2025, <https://www.rfc-editor.org/info/rfc9717>.
 RFC9718 |           | Abley, J., Schlyter, J., Bailey, G., and P. Hoffman, "DNSSEC Trust Anchor Publication for the Root Zone", RFC 9718, DOI 10.17487/RFC9718, January 2025, <https://www.rfc-editor.org/info/rfc9718>.
+RFC9719 |           | Zhang, Z., Wei, Y., Ma, S., Liu, X., and B. Rijsman, "YANG Data Model for Routing in Fat Trees (RIFT)", RFC 9719, DOI 10.17487/RFC9719, April 2025, <https://www.rfc-editor.org/info/rfc9719>.
 RFC9720 |           | Hoffman, P. and H. Flanagan, "RFC Formats and Versions", RFC 9720, DOI 10.17487/RFC9720, January 2025, <https://www.rfc-editor.org/info/rfc9720>.
 RFC9724 |           | Zúñiga, JC., Bernardos, CJ., Ed., and A. Andersdotter, "State of Affairs for Randomized and Changing Media Access Control (MAC) Addresses", RFC 9724, DOI 10.17487/RFC9724, March 2025, <https://www.rfc-editor.org/info/rfc9724>.
 RFC9725 |           | Garcia Murillo, S. and A. Gouaillard, "WebRTC-HTTP Ingestion Protocol (WHIP)", RFC 9725, DOI 10.17487/RFC9725, March 2025, <https://www.rfc-editor.org/info/rfc9725>.
@@ -9558,6 +9559,7 @@ RFC9755 |           | Resnick, P., Yao, J., and A. Gulbrandsen, "IMAP Support fo
 RFC9756 |           | Dhody, D. and A. Farrel, "Update to the IANA Path Communication Element Protocol (PCEP) Numbers Registration Procedures and the Allowance of Experimental Error Codes", RFC 9756, DOI 10.17487/RFC9756, March 2025, <https://www.rfc-editor.org/info/rfc9756>.
 RFC9757 |           | Wang, A., Khasanov, B., Fang, S., and C. Zhu, "Path Computation Element Communication Protocol (PCEP) Extensions for Native IP Networks", RFC 9757, DOI 10.17487/RFC9757, March 2025, <https://www.rfc-editor.org/info/rfc9757>.
 RFC9759 |           | Kuhns, K., "Unified Time Scaling for Temporal Coordination Frameworks", RFC 9759, DOI 10.17487/RFC9759, April 1 2025, <https://www.rfc-editor.org/info/rfc9759>.
+RFC9764 |           | Haas, J. and A. Fu, "Bidirectional Forwarding Detection (BFD) Encapsulated in Large Packets", RFC 9764, DOI 10.17487/RFC9764, April 2025, <https://www.rfc-editor.org/info/rfc9764>.
 RFC9775 |           | Perkins, C., "IRTF Code of Conduct", RFC 9775, DOI 10.17487/RFC9775, March 2025, <https://www.rfc-editor.org/info/rfc9775>.
 RFC9776 |           | Haberman, B., Ed., "Internet Group Management Protocol, Version 3", STD 100, RFC 9776, DOI 10.17487/RFC9776, March 2025, <https://www.rfc-editor.org/info/rfc9776>.
 RFC9777 |           | Haberman, B., Ed., "Multicast Listener Discovery Version 2 (MLDv2) for IPv6", STD 101, RFC 9777, DOI 10.17487/RFC9777, March 2025, <https://www.rfc-editor.org/info/rfc9777>.
