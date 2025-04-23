@@ -2,17 +2,17 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2025-04-22 00:07:21 UTC
+Last updated: 2025-04-23 00:07:16 UTC
 
 ## Recently Published RFCs
 
 | RFC | Title | Date | Status | DOI |
 |-----|-------|------|--------|-----|
-| [RFC 9747](rfcs/rfc9747.txt) | Unaffiliated Bidirectional Forwarding Detection (BFD) Echo | March 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9747) |
 | [RFC 9748](rfcs/rfc9748.txt) | Updating the NTP Registries | February 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9748) |
 | [RFC 9749](rfcs/rfc9749.txt) | Use of Voluntary Application Server Identification (VAPID) in JSON Meta Application Protocol (JMAP) Web Push | March 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9749) |
 | [RFC 9751](rfcs/rfc9751.txt) | Closing the RTP Payload Format Media Types Registry | March 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9751) |
 | [RFC 9752](rfcs/rfc9752.txt) | Conveying Vendor-Specific Information in the Path Computation Element Communication Protocol (PCEP) Extensions for Stateful PCE | April 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9752) |
+| [RFC 9753](rfcs/rfc9753.txt) | Extension for Stateful PCE to Allow Optional Processing of Path Computation Element Communication Protocol (PCEP) Objects | April 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9753) |
 | [RFC 9754](rfcs/rfc9754.txt) | Extensions for Opening and Delegating Files in NFSv4.2 | March 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9754) |
 | [RFC 9755](rfcs/rfc9755.txt) | IMAP Support for UTF-8 | March 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9755) |
 | [RFC 9756](rfcs/rfc9756.txt) | Update to the IANA Path Communication Element Protocol (PCEP) Numbers Registration Procedures and the Allowance of Experimental Error Codes | March 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9756) |
