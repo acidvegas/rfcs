@@ -2,7 +2,7 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2025-05-09 00:07:30 UTC
+Last updated: 2025-05-10 00:07:07 UTC
 
 ## Recently Published RFCs
 
@@ -24,3 +24,4 @@ Last updated: 2025-05-09 00:07:30 UTC
 | [RFC 9776](rfcs/rfc9776.txt) | Internet Group Management Protocol, Version 3 | March 2025 | INTERNET STANDARD | [10.17487](https://doi.org/10.17487/RFC9776) |
 | [RFC 9777](rfcs/rfc9777.txt) | Multicast Listener Discovery Version 2 (MLDv2) for IPv6 | March 2025 | INTERNET STANDARD | [10.17487](https://doi.org/10.17487/RFC9777) |
 | [RFC 9778](rfcs/rfc9778.txt) | IANA Considerations for Internet Group Management Protocols | March 2025 | BEST CURRENT PRACTICE | [10.17487](https://doi.org/10.17487/RFC9778) |
+| [RFC 9779](rfcs/rfc9779.txt) | Performance Measurement for Segment Routing Networks with the MPLS Data Plane | May 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9779) |
