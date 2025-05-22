@@ -5,7 +5,7 @@
                              BCP INDEX
                            -------------
 
-CREATED ON: 05/20/2025.
+CREATED ON: 05/21/2025.
 
 This file contains citations for all BCPs in numeric order.  The BCPs
 form a sub-series of the RFC document series, specifically those RFCs
@@ -708,7 +708,7 @@ RFC Editor Web page http://www.rfc-editor.org.
 
 0172 Recommendation for Not Using AS_SET and AS_CONFED_SET in BGP. W.
      Kumari, K. Sriram. December 2011. (Format: TXT=10673 HTML= bytes)
-     (Also RFC6472)
+     (Obsoleted by RFC9774) (Also RFC6472)
 
 0173 Certificate Policy (CP) for the Resource Public Key
      Infrastructure (RPKI). S. Kent, D. Kong, K. Seo, R. Watro. February
