@@ -2,13 +2,12 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2025-05-28 00:57:02 UTC
+Last updated: 2025-05-29 00:57:02 UTC
 
 ## Recently Published RFCs
 
 | RFC | Title | Date | Status | DOI |
 |-----|-------|------|--------|-----|
-| [RFC 9757](rfcs/rfc9757.txt) | Path Computation Element Communication Protocol (PCEP) Extensions for Native IP Networks | March 2025 | EXPERIMENTAL | [10.17487](https://doi.org/10.17487/RFC9757) |
 | [RFC 9758](rfcs/rfc9758.txt) | Updates to the 'ipn' URI Scheme | May 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9758) |
 | [RFC 9759](rfcs/rfc9759.txt) | Unified Time Scaling for Temporal Coordination Frameworks | April 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9759) |
 | [RFC 9760](rfcs/rfc9760.txt) | Enterprise Profile for the Precision Time Protocol with Mixed Multicast and Unicast Messages | May 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9760) |
@@ -25,3 +24,5 @@ Last updated: 2025-05-28 00:57:02 UTC
 | [RFC 9777](rfcs/rfc9777.txt) | Multicast Listener Discovery Version 2 (MLDv2) for IPv6 | March 2025 | INTERNET STANDARD | [10.17487](https://doi.org/10.17487/RFC9777) |
 | [RFC 9778](rfcs/rfc9778.txt) | IANA Considerations for Internet Group Management Protocols | March 2025 | BEST CURRENT PRACTICE | [10.17487](https://doi.org/10.17487/RFC9778) |
 | [RFC 9779](rfcs/rfc9779.txt) | Performance Measurement for Segment Routing Networks with the MPLS Data Plane | May 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9779) |
+| [RFC 9781](rfcs/rfc9781.txt) | A Concise Binary Object Representation (CBOR) Tag for Unprotected CBOR Web Token Claims Sets (UCCS) | May 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9781) |
+| [RFC 9782](rfcs/rfc9782.txt) | Entity Attestation Token (EAT) Media Types | May 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9782) |
