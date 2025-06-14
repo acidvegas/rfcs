@@ -2,13 +2,12 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2025-06-13 00:08:10 UTC
+Last updated: 2025-06-14 00:07:44 UTC
 
 ## Recently Published RFCs
 
 | RFC | Title | Date | Status | DOI |
 |-----|-------|------|--------|-----|
-| [RFC 9761](rfcs/rfc9761.txt) | Manufacturer Usage Description (MUD) for TLS and DTLS Profiles for Internet of Things (IoT) Devices | April 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9761) |
 | [RFC 9764](rfcs/rfc9764.txt) | Bidirectional Forwarding Detection (BFD) Encapsulated in Large Packets | April 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9764) |
 | [RFC 9765](rfcs/rfc9765.txt) | RADIUS/1.1: Leveraging Application-Layer Protocol Negotiation (ALPN) to Remove MD5 | April 2025 | EXPERIMENTAL | [10.17487](https://doi.org/10.17487/RFC9765) |
 | [RFC 9766](rfcs/rfc9766.txt) | Extensions for Weak Cache Consistency in NFSv4.2's Flexible File Layout | April 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9766) |
@@ -25,3 +24,4 @@ Last updated: 2025-06-13 00:08:10 UTC
 | [RFC 9780](rfcs/rfc9780.txt) | Bidirectional Forwarding Detection (BFD) for Multipoint Networks over Point-to-Multipoint MPLS Label Switched Paths (LSPs) | May 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9780) |
 | [RFC 9781](rfcs/rfc9781.txt) | A Concise Binary Object Representation (CBOR) Tag for Unprotected CBOR Web Token Claims Sets (UCCS) | May 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9781) |
 | [RFC 9782](rfcs/rfc9782.txt) | Entity Attestation Token (EAT) Media Types | May 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9782) |
+| [RFC 9792](rfcs/rfc9792.txt) | Prefix Flag Extension for OSPFv2 and OSPFv3 | June 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9792) |
