@@ -2,17 +2,13 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2025-06-16 00:08:20 UTC
+Last updated: 2025-06-17 00:08:10 UTC
 
 ## Recently Published RFCs
 
 | RFC | Title | Date | Status | DOI |
 |-----|-------|------|--------|-----|
-| [RFC 9764](rfcs/rfc9764.txt) | Bidirectional Forwarding Detection (BFD) Encapsulated in Large Packets | April 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9764) |
-| [RFC 9765](rfcs/rfc9765.txt) | RADIUS/1.1: Leveraging Application-Layer Protocol Negotiation (ALPN) to Remove MD5 | April 2025 | EXPERIMENTAL | [10.17487](https://doi.org/10.17487/RFC9765) |
-| [RFC 9766](rfcs/rfc9766.txt) | Extensions for Weak Cache Consistency in NFSv4.2's Flexible File Layout | April 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9766) |
-| [RFC 9767](rfcs/rfc9767.txt) | Grant Negotiation and Authorization Protocol Resource Server Connections | April 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9767) |
-| [RFC 9769](rfcs/rfc9769.txt) | NTP Interleaved Modes | May 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9769) |
+| [RFC 9770](rfcs/rfc9770.txt) | Notification of Revoked Access Tokens in the Authentication and Authorization for Constrained Environments (ACE) Framework | June 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9770) |
 | [RFC 9771](rfcs/rfc9771.txt) | Properties of Authenticated Encryption with Associated Data (AEAD) Algorithms | May 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9771) |
 | [RFC 9772](rfcs/rfc9772.txt) | Active Operations, Administration, and Maintenance (OAM) for Use in Generic Network Virtualization Encapsulation (Geneve) | May 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9772) |
 | [RFC 9774](rfcs/rfc9774.txt) | Deprecation of AS_SET and AS_CONFED_SET in BGP | May 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9774) |
@@ -24,4 +20,8 @@ Last updated: 2025-06-16 00:08:20 UTC
 | [RFC 9780](rfcs/rfc9780.txt) | Bidirectional Forwarding Detection (BFD) for Multipoint Networks over Point-to-Multipoint MPLS Label Switched Paths (LSPs) | May 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9780) |
 | [RFC 9781](rfcs/rfc9781.txt) | A Concise Binary Object Representation (CBOR) Tag for Unprotected CBOR Web Token Claims Sets (UCCS) | May 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9781) |
 | [RFC 9782](rfcs/rfc9782.txt) | Entity Attestation Token (EAT) Media Types | May 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9782) |
+| [RFC 9783](rfcs/rfc9783.txt) | Arm's Platform Security Architecture (PSA) Attestation Token | June 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9783) |
 | [RFC 9792](rfcs/rfc9792.txt) | Prefix Flag Extension for OSPFv2 and OSPFv3 | June 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9792) |
+| [RFC 9793](rfcs/rfc9793.txt) | BGP Extensions for Bit Index Explicit Replication (BIER) | June 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9793) |
+| [RFC 9794](rfcs/rfc9794.txt) | Terminology for Post-Quantum Traditional Hybrid Schemes | June 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9794) |
+| [RFC 9803](rfcs/rfc9803.txt) | Extensible Provisioning Protocol (EPP) Mapping for DNS Time-to-Live (TTL) Values | June 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9803) |
