@@ -2,15 +2,14 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2025-06-18 00:07:50 UTC
+Last updated: 2025-06-19 00:08:09 UTC
 
 ## Recently Published RFCs
 
 | RFC | Title | Date | Status | DOI |
 |-----|-------|------|--------|-----|
-| [RFC 9770](rfcs/rfc9770.txt) | Notification of Revoked Access Tokens in the Authentication and Authorization for Constrained Environments (ACE) Framework | June 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9770) |
-| [RFC 9771](rfcs/rfc9771.txt) | Properties of Authenticated Encryption with Associated Data (AEAD) Algorithms | May 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9771) |
 | [RFC 9772](rfcs/rfc9772.txt) | Active Operations, Administration, and Maintenance (OAM) for Use in Generic Network Virtualization Encapsulation (Geneve) | May 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9772) |
+| [RFC 9773](rfcs/rfc9773.txt) | ACME Renewal Information (ARI) Extension | June 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9773) |
 | [RFC 9774](rfcs/rfc9774.txt) | Deprecation of AS_SET and AS_CONFED_SET in BGP | May 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9774) |
 | [RFC 9775](rfcs/rfc9775.txt) | IRTF Code of Conduct | March 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9775) |
 | [RFC 9776](rfcs/rfc9776.txt) | Internet Group Management Protocol, Version 3 | March 2025 | INTERNET STANDARD | [10.17487](https://doi.org/10.17487/RFC9776) |
@@ -25,3 +24,4 @@ Last updated: 2025-06-18 00:07:50 UTC
 | [RFC 9793](rfcs/rfc9793.txt) | BGP Extensions for Bit Index Explicit Replication (BIER) | June 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9793) |
 | [RFC 9794](rfcs/rfc9794.txt) | Terminology for Post-Quantum Traditional Hybrid Schemes | June 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9794) |
 | [RFC 9803](rfcs/rfc9803.txt) | Extensible Provisioning Protocol (EPP) Mapping for DNS Time-to-Live (TTL) Values | June 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9803) |
+| [RFC 9804](rfcs/rfc9804.txt) | Simple Public Key Infrastructure (SPKI) S-Expressions | June 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9804) |
