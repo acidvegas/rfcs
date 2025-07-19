@@ -2,13 +2,12 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2025-07-18 00:08:01 UTC
+Last updated: 2025-07-19 00:08:16 UTC
 
 ## Recently Published RFCs
 
 | RFC | Title | Date | Status | DOI |
 |-----|-------|------|--------|-----|
-| [RFC 9792](rfcs/rfc9792.txt) | Prefix Flag Extension for OSPFv2 and OSPFv3 | June 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9792) |
 | [RFC 9793](rfcs/rfc9793.txt) | BGP Extensions for Bit Index Explicit Replication (BIER) | June 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9793) |
 | [RFC 9794](rfcs/rfc9794.txt) | Terminology for Post-Quantum Traditional Hybrid Schemes | June 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9794) |
 | [RFC 9795](rfcs/rfc9795.txt) | Personal Assertion Token (PASSporT) Extension for Rich Call Data | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9795) |
@@ -25,3 +24,4 @@ Last updated: 2025-07-18 00:08:01 UTC
 | [RFC 9806](rfcs/rfc9806.txt) | Updates to SIP-Based Media Recording (SIPREC) to Correct Metadata Media Type | June 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9806) |
 | [RFC 9809](rfcs/rfc9809.txt) | X.509 Certificate Extended Key Usage (EKU) for Configuration, Updates, and Safety-Critical Communication | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9809) |
 | [RFC 9813](rfcs/rfc9813.txt) | Operational Considerations for Using TLS Pre-Shared Keys (TLS-PSKs) with RADIUS | July 2025 | BEST CURRENT PRACTICE | [10.17487](https://doi.org/10.17487/RFC9813) |
+| [RFC 9829](rfcs/rfc9829.txt) | Handling of Resource Public Key Infrastructure (RPKI) Certificate Revocation List (CRL) Number Extensions | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9829) |
