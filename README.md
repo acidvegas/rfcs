@@ -2,16 +2,12 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2025-07-21 00:09:04 UTC
+Last updated: 2025-07-22 00:08:21 UTC
 
 ## Recently Published RFCs
 
 | RFC | Title | Date | Status | DOI |
 |-----|-------|------|--------|-----|
-| [RFC 9793](rfcs/rfc9793.txt) | BGP Extensions for Bit Index Explicit Replication (BIER) | June 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9793) |
-| [RFC 9794](rfcs/rfc9794.txt) | Terminology for Post-Quantum Traditional Hybrid Schemes | June 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9794) |
-| [RFC 9795](rfcs/rfc9795.txt) | Personal Assertion Token (PASSporT) Extension for Rich Call Data | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9795) |
-| [RFC 9796](rfcs/rfc9796.txt) | SIP Call-Info Parameters for Rich Call Data | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9796) |
 | [RFC 9797](rfcs/rfc9797.txt) | Randomized and Changing Media Access Control (MAC) Addresses: Context, Network Impacts, and Use Cases | June 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9797) |
 | [RFC 9798](rfcs/rfc9798.txt) | PIM Join/Prune Attributes for Locator/ID Separation Protocol (LISP) Environments Using Underlay Multicast | June 2025 | EXPERIMENTAL | [10.17487](https://doi.org/10.17487/RFC9798) |
 | [RFC 9799](rfcs/rfc9799.txt) | Automated Certificate Management Environment (ACME) Extensions for ".onion" Special-Use Domain Names | June 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9799) |
@@ -24,4 +20,8 @@ Last updated: 2025-07-21 00:09:04 UTC
 | [RFC 9806](rfcs/rfc9806.txt) | Updates to SIP-Based Media Recording (SIPREC) to Correct Metadata Media Type | June 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9806) |
 | [RFC 9809](rfcs/rfc9809.txt) | X.509 Certificate Extended Key Usage (EKU) for Configuration, Updates, and Safety-Critical Communication | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9809) |
 | [RFC 9813](rfcs/rfc9813.txt) | Operational Considerations for Using TLS Pre-Shared Keys (TLS-PSKs) with RADIUS | July 2025 | BEST CURRENT PRACTICE | [10.17487](https://doi.org/10.17487/RFC9813) |
+| [RFC 9814](rfcs/rfc9814.txt) | Use of the SLH-DSA Signature Algorithm in the Cryptographic Message Syntax (CMS) | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9814) |
+| [RFC 9815](rfcs/rfc9815.txt) | BGP Link State (BGP-LS) Shortest Path First (SPF) Routing | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9815) |
+| [RFC 9816](rfcs/rfc9816.txt) | Usage and Applicability of BGP Link State (BGP-LS) Shortest Path First (SPF) Routing in Data Centers | July 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9816) |
+| [RFC 9819](rfcs/rfc9819.txt) | Argument Signaling for BGP Services in Segment Routing over IPv6 (SRv6) | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9819) |
 | [RFC 9829](rfcs/rfc9829.txt) | Handling of Resource Public Key Infrastructure (RPKI) Certificate Revocation List (CRL) Number Extensions | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9829) |
