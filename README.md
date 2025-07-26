@@ -2,13 +2,12 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2025-07-25 00:08:09 UTC
+Last updated: 2025-07-26 00:08:14 UTC
 
 ## Recently Published RFCs
 
 | RFC | Title | Date | Status | DOI |
 |-----|-------|------|--------|-----|
-| [RFC 9797](rfcs/rfc9797.txt) | Randomized and Changing Media Access Control (MAC) Addresses: Context, Network Impacts, and Use Cases | June 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9797) |
 | [RFC 9798](rfcs/rfc9798.txt) | PIM Join/Prune Attributes for Locator/ID Separation Protocol (LISP) Environments Using Underlay Multicast | June 2025 | EXPERIMENTAL | [10.17487](https://doi.org/10.17487/RFC9798) |
 | [RFC 9799](rfcs/rfc9799.txt) | Automated Certificate Management Environment (ACME) Extensions for ".onion" Special-Use Domain Names | June 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9799) |
 | [RFC 9800](rfcs/rfc9800.txt) | Compressed SRv6 Segment List Encoding | June 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9800) |
@@ -18,6 +17,7 @@ Last updated: 2025-07-25 00:08:09 UTC
 | [RFC 9804](rfcs/rfc9804.txt) | Simple Public Key Infrastructure (SPKI) S-Expressions | June 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9804) |
 | [RFC 9805](rfcs/rfc9805.txt) | Deprecation of the IPv6 Router Alert Option for New Protocols | June 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9805) |
 | [RFC 9806](rfcs/rfc9806.txt) | Updates to SIP-Based Media Recording (SIPREC) to Correct Metadata Media Type | June 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9806) |
+| [RFC 9807](rfcs/rfc9807.txt) | The OPAQUE Augmented Password-Authenticated Key Exchange (aPAKE) Protocol | July 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9807) |
 | [RFC 9809](rfcs/rfc9809.txt) | X.509 Certificate Extended Key Usage (EKU) for Configuration, Updates, and Safety-Critical Communication | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9809) |
 | [RFC 9813](rfcs/rfc9813.txt) | Operational Considerations for Using TLS Pre-Shared Keys (TLS-PSKs) with RADIUS | July 2025 | BEST CURRENT PRACTICE | [10.17487](https://doi.org/10.17487/RFC9813) |
 | [RFC 9814](rfcs/rfc9814.txt) | Use of the SLH-DSA Signature Algorithm in the Cryptographic Message Syntax (CMS) | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9814) |
