@@ -2,13 +2,12 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2025-07-29 00:09:13 UTC
+Last updated: 2025-07-30 00:08:40 UTC
 
 ## Recently Published RFCs
 
 | RFC | Title | Date | Status | DOI |
 |-----|-------|------|--------|-----|
-| [RFC 9798](rfcs/rfc9798.txt) | PIM Join/Prune Attributes for Locator/ID Separation Protocol (LISP) Environments Using Underlay Multicast | June 2025 | EXPERIMENTAL | [10.17487](https://doi.org/10.17487/RFC9798) |
 | [RFC 9799](rfcs/rfc9799.txt) | Automated Certificate Management Environment (ACME) Extensions for ".onion" Special-Use Domain Names | June 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9799) |
 | [RFC 9800](rfcs/rfc9800.txt) | Compressed SRv6 Segment List Encoding | June 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9800) |
 | [RFC 9801](rfcs/rfc9801.txt) | Private Line Emulation over Packet Switched Networks | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9801) |
@@ -23,5 +22,6 @@ Last updated: 2025-07-29 00:09:13 UTC
 | [RFC 9814](rfcs/rfc9814.txt) | Use of the SLH-DSA Signature Algorithm in the Cryptographic Message Syntax (CMS) | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9814) |
 | [RFC 9815](rfcs/rfc9815.txt) | BGP Link State (BGP-LS) Shortest Path First (SPF) Routing | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9815) |
 | [RFC 9816](rfcs/rfc9816.txt) | Usage and Applicability of BGP Link State (BGP-LS) Shortest Path First (SPF) Routing in Data Centers | July 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9816) |
+| [RFC 9818](rfcs/rfc9818.txt) | DHCPv6 Prefix Delegation on IPv6 Customer Edge (CE) Routers in LANs | July 2025 | INFORMATIONAL | [10.17487](https://doi.org/10.17487/RFC9818) |
 | [RFC 9819](rfcs/rfc9819.txt) | Argument Signaling for BGP Services in Segment Routing over IPv6 (SRv6) | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9819) |
 | [RFC 9829](rfcs/rfc9829.txt) | Handling of Resource Public Key Infrastructure (RPKI) Certificate Revocation List (CRL) Number Extensions | July 2025 | PROPOSED STANDARD | [10.17487](https://doi.org/10.17487/RFC9829) |
