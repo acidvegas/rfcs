@@ -2,7 +2,7 @@
 
 Automatically synchronized mirror of IETF RFCs. This repository is updated daily at midnight UTC.
 
-Last updated: 2025-11-17 00:08:22 UTC
+Last updated: 2025-11-18 00:08:07 UTC
 
 ## Recently Published RFCs
 
