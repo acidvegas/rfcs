@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 12/08/2025.)
+(CREATED ON: 12/09/2025.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -42198,9 +42198,22 @@ See the RFC Editor Web page http://www.rfc-editor.org
      Vasilenko, E. Metz, G. Mishra, N. Buraglio. November 2025. (Format:
      HTML, TXT, PDF, XML) (Status: INFORMATIONAL) (DOI: 10.17487/RFC9898) 
 
+9900 Updates to NETCONF Transport Port Numbers. M. Boucadair. December
+     2025. (Format: HTML, TXT, PDF, XML) (Status: PROPOSED STANDARD)
+     (DOI: 10.17487/RFC9900) 
+
 9901 Selective Disclosure for JSON Web Tokens. D. Fett, K. Yasuda, B.
      Campbell. November 2025. (Format: HTML, TXT, PDF, XML) (Status:
      PROPOSED STANDARD) (DOI: 10.17487/RFC9901) 
+
+9902 A YANG Data Model for IS-IS Segment Routing over the MPLS Data
+     Plane. S. Litkowski, Y. Qu, A. Lindem, I. Chen, J. Tantsura.
+     December 2025. (Format: HTML, TXT, PDF, XML) (Status: PROPOSED
+     STANDARD) (DOI: 10.17487/RFC9902) 
+
+9903 A YANG Data Model for OSPF Segment Routing over the MPLS Data Plane.
+     Y. Qu, A. Lindem, J. Zhang, I. Chen. December 2025. (Format: HTML,
+     TXT, PDF, XML) (Status: PROPOSED STANDARD) (DOI: 10.17487/RFC9903) 
 
 9904 DNSSEC Cryptographic Algorithm Recommendation Update Process. W.
      Hardaker, W. Kumari. November 2025. (Format: HTML, TXT, PDF, XML)
