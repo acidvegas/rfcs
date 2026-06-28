@@ -5,7 +5,7 @@
                              RFC INDEX
                            -------------
 
-(CREATED ON: 06/26/2026.)
+(CREATED ON: 06/27/2026.)
 
 This file contains citations for all RFCs in numeric order.
 
@@ -41743,8 +41743,8 @@ See the RFC Editor Web page http://www.rfc-editor.org
      10.17487/RFC9788)
 
 9789 MPLS Network Actions (MNAs) Framework. L. Andersson, S. Bryant, M.
-     Bocci, T. Li. July 2025. (Format: HTML, TXT, PDF, XML) (Status:
-     INFORMATIONAL) (DOI: 10.17487/RFC9789)
+     Bocci, T. Li. July 2025. (Format: HTML, TXT, PDF, XML) (Updated by
+     RFC9994) (Status: INFORMATIONAL) (DOI: 10.17487/RFC9789)
 
 9790 IANA Registry and Processing Recommendations for the First Nibble
      Following a Label Stack. K. Kompella, S. Bryant, M. Bocci, G.
@@ -42595,6 +42595,12 @@ See the RFC Editor Web page http://www.rfc-editor.org
 9993 RTP Payload Format for Haptics. HS Yang, X. de Foy. May 2026.
      (Format: HTML, TXT, PDF, XML) (Updates RFC9695) (Status: PROPOSED
      STANDARD) (DOI: 10.17487/RFC9993)
+
+9994 MPLS Network Action (MNA) Sub-Stack Specification Including In-Stack
+     Network Actions and Data. J. Rajamanickam, Ed., R. Gandhi, Ed., R.
+     Zigler, H. Song, K. Kompella. June 2026. (Format: HTML, TXT, PDF,
+     XML) (Updates RFC9789) (Status: PROPOSED STANDARD) (DOI:
+     10.17487/RFC9994)
 
 9998 Report from the IAB/W3C Workshop on Age-Based Restrictions on
      Content Access. M. Nottingham, M. Thomson. June 2026. (Format: HTML,
